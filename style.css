@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    
+}
+img {
+    width: 350px;
+    height: auto;
+    text-align: center;
+    
+}
+
+#Apps {
+    width: 100%;
+    height: 800%;
+    background-color: lightblue;
+    
+}
+
+#Games {
+    width: 100%;
+    height: 800%;
+    background-color: lightcoral;
+    
+}
+
+#chatbot {
+    width: 100%;
+    height: 800%;
+    background-color: burlywood;
+}
+
+.line {
+  height:6px;
+  background-color: #000;
+  width: 100px;
+  margin: 8px auto;
+  
+}
+
+img {
+    transition: transform .2s;
+    
+}
+
+
+
+img.hover {
+    transform: scale(0.9);
+    
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
